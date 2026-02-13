@@ -1,36 +1,100 @@
-<!DOCTYPE =html >
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Industrial Automation Class</title>
+    <style>
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+            display: flex;
+        }
 
-    <head>
+        /* Sidebar */
+        .sidebar {
+            height: 100vh;
+            width: 250px;
+            background-color: #2c3e50;
+            color: white;
+            display: flex;
+            flex-direction: column;
+            padding: 20px;
+        }
 
-      
-    </head>
+        .sidebar h2 {
+            margin-top: 0;
+            margin-bottom: 20px;
+            font-size: 24px;
+        }
 
-    <body>
+        .sidebar a {
+            color: white;
+            text-decoration: none;
+            padding: 10px 0;
+            font-size: 18px;
+        }
 
-        <p><center>WELCOME TO ARIF'S NOTES</center></p>
+        .sidebar a:hover {
+            background-color: #34495e;
+            padding-left: 10px;
+            transition: 0.2s;
+        }
 
+        /* Main content */
+        .main-content {
+            flex-grow: 1;
+            padding: 40px;
+            background-color: #ecf0f1;
+        }
 
+        .main-content h1 {
+            font-size: 36px;
+            margin-bottom: 20px;
+            color: #34495e;
+        }
 
-    <h5><a href="https://colab.research.google.com/drive/1LUJ4YyCngLo5ikXZPk3B65czyuyrL5N4#scrollTo=BdiX4n3V5E00" target="_blank"> Basic Control System Theories </a></h5>
+        .main-content p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
 
-    <h5><a href="https://colab.research.google.com/drive/1LB-7RUHezUCQqh4DVt6rb6kJIGbIZ0ZL?usp=drive_link" target="_blank"> Applied Electro-Magnetic Theory</a></h5>
-    
-    <h5><a href="https://colab.research.google.com/drive/1NGGcrYqkpxRvj1PGDhs88w-jowmN65NX?usp=drive_link" target="_blank"> DSP:System and Fourier Transform</a></h5>
-    
-    <h5><a href="https://colab.research.google.com/drive/15BzUvtcmgOq3ut82552Y2x0FkLlMXN51?usp=drive_link" target="_blank">DSP:System and Z Transform</a></h5>
+        .main-content a {
+            display: inline-block;
+            margin-top: 20px;
+            padding: 10px 20px;
+            background-color: #2980b9;
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+        }
 
-    <h5><a href ="https://colab.research.google.com/drive/19fLtMeGUikwB85Z6bgoZSF299PiWS4NX?usp=drive_link" target="_blank">DSP:System and Filter Design</a></h5>
+        .main-content a:hover {
+            background-color: #3498db;
+        }
+    </style>
+</head>
+<body>
 
-    <h5><a href ="https://colab.research.google.com/drive/1RnKi_mh68asd69F3zmFXXhV2fBKys_c5?usp=sharing" target="_blank">Embedded C/C++ Reference</a></h5>
- 
-    <h5><a href = "https://colab.research.google.com/drive/1RnKi_mh68asd69F3zmFXXhV2fBKys_c5?usp=sharing" target="_blank">Real Time Embedded OS</a></h5>
+    <!-- Sidebar -->
+    <div class="sidebar">
+        <h2>Automation 101</h2>
+        <a href="#">Home</a>
+        <a href="#">Lessons</a>
+        <a href="#">Lab Exercises</a>
+        <a href="anotherpage.html">Next Page</a>
+        <a href="#">Contact</a>
+    </div>
 
-    <h5><a href ="https://colab.research.google.com/drive/1LckJGduGC1U8qoQ6UUA_4TLf4OgLXtp4?usp=sharing" target="_blank">Real Time Deep Learning</a></h5>
-    
-    </body>
+    <!-- Main Content -->
+    <div class="main-content">
+        <h1>Welcome to Industrial Automation Class</h1>
+        <p>
+            In this course, you'll learn the fundamentals of industrial automation, including PLC programming, sensor integration, motor control, and industrial communication protocols.  
+            Our goal is to give you practical skills that can be directly applied in real-world industrial environments.
+        </p>
+        <a href="anotherpage.html">Go to Next Page</a>
+    </div>
 
-
-
-
+</body>
 </html>
